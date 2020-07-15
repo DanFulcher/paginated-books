@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly Renders Book Listing component 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="mb-4 col-md-4 col-sm-6 col-12"
+  >
+    <div
+      className="w-100 h-100 card"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Test Book
+        </div>
+        <p
+          className="card-text"
+        >
+          Test Author
+        </p>
+        <p
+          className="card-text"
+        >
+          Book pages: 
+          123
+        </p>
+        <p
+          className="card-text"
+        >
+          Published in: 
+          Test City
+          , 
+          Test Country
+           (
+          1234
+          )
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
