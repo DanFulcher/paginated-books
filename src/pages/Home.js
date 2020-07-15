@@ -42,7 +42,7 @@ const Home = () => {
     <Container>
       <Row className="mt-4 mb-4">
         <Col xs={12} sm={6}>
-          <h1>Paginated Books</h1>
+          <h1>{`Dan's Books`}</h1>
         </Col>
         <Col xs={12} sm={6} className="d-flex justify-content-end">
           <Search onType={(value) => handleSearch(value)} />
